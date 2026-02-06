@@ -1,17 +1,34 @@
 Autonomous Insurance Claims Processing Agent
 
- Overview
-This project automates insurance claim processing. It reads claim files (text or PDF), extracts required fields, validates data, and routes claims based on rules.
+Description:
+The Insurance Claims Agent is a Python-based application designed to assist users with insurance claim-related queries.  
+It acts as a virtual assistant that guides users through claim understanding, eligibility checks, and basic claim procedures.
+This project demonstrates automation, logical flow, and problem-solving using Python.
+
+
+Problem Statement:
+Insurance claim processes are often confusing and time-consuming for users.  
+This project aims to simplify the process by providing instant responses and guidance through an automated agent.
+
+
+Solution:
+The Insurance Claims Agent:
+- Accepts user inputs related to insurance claims
+- Processes the information using predefined logic
+- Provides relevant guidance and responses
+- Reduces dependency on manual customer support
+
+Technologies Used
+- Python
+- Git
+- GitHub
 
  Features
-- Field extraction from PDF / text
-- Data validation
-- Routing of claims
-- Modular architecture
+- Interactive command-line interface
+- Basic claim guidance
+- Simple and beginner-friendly logic
+- Easy to extend and improve
 
- Tech Stack
-- Python 3.14
-- Libraries: pandas, PyPDF2, etc.
 
  Project Structure
  insurance-claims-agent/
@@ -25,15 +42,14 @@ This project automates insurance claim processing. It reads claim files (text or
 │ ├── validator.py
 │ └── router.py
 
- How to Run
-1. Clone the repo:
-git clone https://github.com/Dacesridhar/insurance-claims-agent.git
 
-2.Go to project folder:
-cd insurance-claims-agent
+How to Run the Project
 
-3.Install dependencies:
-pip install -r requirements.txt
+ Step 1: Clone the Repository
+ git clone https://github.com/Dacesridhar/insurance-claims-agent.git
 
-4.Run the project:
-python src/main.py
+ Step 2: Navigate to the Project Folder
+ cd insurance-claims-agent
+
+ Step 3: Run the Application
+ python main.py
